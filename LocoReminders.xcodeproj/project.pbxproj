@@ -14,6 +14,23 @@
 		9C3551C11A7FE9AF0034DAFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C3551C01A7FE9AF0034DAFE /* Images.xcassets */; };
 		9C3551C41A7FE9AF0034DAFE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C3551C21A7FE9AF0034DAFE /* LaunchScreen.xib */; };
 		9C3551D01A7FE9AF0034DAFE /* LocoRemindersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3551CF1A7FE9AF0034DAFE /* LocoRemindersTests.m */; };
+		9C3551DB1A7FFC9E0034DAFE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3551DA1A7FFC9E0034DAFE /* Person.m */; };
+		9C3551DD1A802CBA0034DAFE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3551DC1A802CBA0034DAFE /* MapKit.framework */; };
+		9C3551E01A802D3D0034DAFE /* MapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3551DF1A802D3D0034DAFE /* MapVC.m */; };
+		9C5A7C201A83EBCC002CB4CB /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A7C1F1A83EBCC002CB4CB /* InterfaceController.m */; };
+		9C5A7C231A83EBCC002CB4CB /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A7C221A83EBCC002CB4CB /* NotificationController.m */; };
+		9C5A7C261A83EBCC002CB4CB /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A7C251A83EBCC002CB4CB /* GlanceController.m */; };
+		9C5A7C281A83EBCC002CB4CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C5A7C271A83EBCC002CB4CB /* Images.xcassets */; };
+		9C5A7C2C1A83EBCC002CB4CB /* LocoReminders WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 9C5A7C2B1A83EBCC002CB4CB /* LocoReminders WatchKit App.app */; };
+		9C5A7C341A83EBCC002CB4CB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5A7C321A83EBCC002CB4CB /* Interface.storyboard */; };
+		9C5A7C361A83EBCC002CB4CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C5A7C351A83EBCC002CB4CB /* Images.xcassets */; };
+		9C5A7C391A83EBCC002CB4CB /* LocoReminders WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9C5A7C191A83EBCC002CB4CB /* LocoReminders WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9C5A7C431A83F0E7002CB4CB /* ReminderRowCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A7C421A83F0E7002CB4CB /* ReminderRowCon.m */; };
+		9C5C019E1A828ABC00703EE8 /* AddReminder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5C019D1A828ABC00703EE8 /* AddReminder.m */; };
+		9C7582B51A813A1B00EA6B7A /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7582B41A813A1B00EA6B7A /* Stack.m */; };
+		9C9274E71A8843010047AEF3 /* LinkedListDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9274E61A8843010047AEF3 /* LinkedListDemo.m */; };
+		9C9274EA1A88435A0047AEF3 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9274E91A88435A0047AEF3 /* Node.m */; };
+		9CDB27501A8AE6CA009B3AC1 /* WatchMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDB274F1A8AE6CA009B3AC1 /* WatchMapVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +41,35 @@
 			remoteGlobalIDString = 9C3551AF1A7FE9AF0034DAFE;
 			remoteInfo = LocoReminders;
 		};
+		9C5A7C2D1A83EBCC002CB4CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3551A81A7FE9AF0034DAFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C5A7C2A1A83EBCC002CB4CB;
+			remoteInfo = "LocoReminders WatchKit App";
+		};
+		9C5A7C371A83EBCC002CB4CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3551A81A7FE9AF0034DAFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C5A7C181A83EBCB002CB4CB;
+			remoteInfo = "LocoReminders WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9C5A7C401A83EBCD002CB4CB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9C5A7C391A83EBCC002CB4CB /* LocoReminders WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9C3551B01A7FE9AF0034DAFE /* LocoReminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocoReminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +85,37 @@
 		9C3551C91A7FE9AF0034DAFE /* LocoRemindersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocoRemindersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C3551CE1A7FE9AF0034DAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C3551CF1A7FE9AF0034DAFE /* LocoRemindersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocoRemindersTests.m; sourceTree = "<group>"; };
+		9C3551D91A7FFC9E0034DAFE /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9C3551DA1A7FFC9E0034DAFE /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		9C3551DC1A802CBA0034DAFE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9C3551DE1A802D3D0034DAFE /* MapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapVC.h; sourceTree = "<group>"; };
+		9C3551DF1A802D3D0034DAFE /* MapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapVC.m; sourceTree = "<group>"; };
+		9C5A7C191A83EBCC002CB4CB /* LocoReminders WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "LocoReminders WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5A7C1C1A83EBCC002CB4CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C5A7C1D1A83EBCC002CB4CB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		9C5A7C1E1A83EBCC002CB4CB /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		9C5A7C1F1A83EBCC002CB4CB /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		9C5A7C211A83EBCC002CB4CB /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		9C5A7C221A83EBCC002CB4CB /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		9C5A7C241A83EBCC002CB4CB /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		9C5A7C251A83EBCC002CB4CB /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		9C5A7C271A83EBCC002CB4CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9C5A7C2B1A83EBCC002CB4CB /* LocoReminders WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LocoReminders WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5A7C311A83EBCC002CB4CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C5A7C331A83EBCC002CB4CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		9C5A7C351A83EBCC002CB4CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9C5A7C411A83F0E7002CB4CB /* ReminderRowCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReminderRowCon.h; path = "../LocoReminders WatchKit App/ReminderRowCon.h"; sourceTree = "<group>"; };
+		9C5A7C421A83F0E7002CB4CB /* ReminderRowCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReminderRowCon.m; path = "../LocoReminders WatchKit App/ReminderRowCon.m"; sourceTree = "<group>"; };
+		9C5C019C1A828ABC00703EE8 /* AddReminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddReminder.h; sourceTree = "<group>"; };
+		9C5C019D1A828ABC00703EE8 /* AddReminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddReminder.m; sourceTree = "<group>"; };
+		9C7582B31A813A1B00EA6B7A /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stack.h; path = Images.xcassets/Stack.h; sourceTree = "<group>"; };
+		9C7582B41A813A1B00EA6B7A /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stack.m; path = Images.xcassets/Stack.m; sourceTree = "<group>"; };
+		9C9274E51A8843010047AEF3 /* LinkedListDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedListDemo.h; sourceTree = "<group>"; };
+		9C9274E61A8843010047AEF3 /* LinkedListDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedListDemo.m; sourceTree = "<group>"; };
+		9C9274E81A88435A0047AEF3 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		9C9274E91A88435A0047AEF3 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		9CDB274E1A8AE6CA009B3AC1 /* WatchMapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchMapVC.h; sourceTree = "<group>"; };
+		9CDB274F1A8AE6CA009B3AC1 /* WatchMapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchMapVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,10 +123,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C3551DD1A802CBA0034DAFE /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9C3551C61A7FE9AF0034DAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5A7C161A83EBCB002CB4CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,7 +147,10 @@
 		9C3551A71A7FE9AF0034DAFE = {
 			isa = PBXGroup;
 			children = (
+				9C3551DC1A802CBA0034DAFE /* MapKit.framework */,
 				9C3551B21A7FE9AF0034DAFE /* LocoReminders */,
+				9C5A7C1A1A83EBCC002CB4CB /* LocoReminders WatchKit Extension */,
+				9C5A7C2F1A83EBCC002CB4CB /* LocoReminders WatchKit App */,
 				9C3551CC1A7FE9AF0034DAFE /* LocoRemindersTests */,
 				9C3551B11A7FE9AF0034DAFE /* Products */,
 			);
@@ -74,6 +161,8 @@
 			children = (
 				9C3551B01A7FE9AF0034DAFE /* LocoReminders.app */,
 				9C3551C91A7FE9AF0034DAFE /* LocoRemindersTests.xctest */,
+				9C5A7C191A83EBCC002CB4CB /* LocoReminders WatchKit Extension.appex */,
+				9C5A7C2B1A83EBCC002CB4CB /* LocoReminders WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,13 +170,9 @@
 		9C3551B21A7FE9AF0034DAFE /* LocoReminders */ = {
 			isa = PBXGroup;
 			children = (
-				9C3551B71A7FE9AF0034DAFE /* AppDelegate.h */,
-				9C3551B81A7FE9AF0034DAFE /* AppDelegate.m */,
-				9C3551BA1A7FE9AF0034DAFE /* ViewController.h */,
-				9C3551BB1A7FE9AF0034DAFE /* ViewController.m */,
-				9C3551BD1A7FE9AF0034DAFE /* Main.storyboard */,
-				9C3551C01A7FE9AF0034DAFE /* Images.xcassets */,
-				9C3551C21A7FE9AF0034DAFE /* LaunchScreen.xib */,
+				9C7582B71A8157A600EA6B7A /* Models */,
+				9C7582B61A81578400EA6B7A /* Controllers */,
+				9C7582B81A8157B000EA6B7A /* Views */,
 				9C3551B31A7FE9AF0034DAFE /* Supporting Files */,
 			);
 			path = LocoReminders;
@@ -119,6 +204,92 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9C5A7C1A1A83EBCC002CB4CB /* LocoReminders WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9CDB274E1A8AE6CA009B3AC1 /* WatchMapVC.h */,
+				9CDB274F1A8AE6CA009B3AC1 /* WatchMapVC.m */,
+				9C5A7C1E1A83EBCC002CB4CB /* InterfaceController.h */,
+				9C5A7C1F1A83EBCC002CB4CB /* InterfaceController.m */,
+				9C5A7C211A83EBCC002CB4CB /* NotificationController.h */,
+				9C5A7C221A83EBCC002CB4CB /* NotificationController.m */,
+				9C5A7C411A83F0E7002CB4CB /* ReminderRowCon.h */,
+				9C5A7C421A83F0E7002CB4CB /* ReminderRowCon.m */,
+				9C5A7C241A83EBCC002CB4CB /* GlanceController.h */,
+				9C5A7C251A83EBCC002CB4CB /* GlanceController.m */,
+				9C5A7C271A83EBCC002CB4CB /* Images.xcassets */,
+				9C5A7C1B1A83EBCC002CB4CB /* Supporting Files */,
+			);
+			path = "LocoReminders WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		9C5A7C1B1A83EBCC002CB4CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C5A7C1C1A83EBCC002CB4CB /* Info.plist */,
+				9C5A7C1D1A83EBCC002CB4CB /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C5A7C2F1A83EBCC002CB4CB /* LocoReminders WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				9C5A7C321A83EBCC002CB4CB /* Interface.storyboard */,
+				9C5A7C351A83EBCC002CB4CB /* Images.xcassets */,
+				9C5A7C301A83EBCC002CB4CB /* Supporting Files */,
+			);
+			path = "LocoReminders WatchKit App";
+			sourceTree = "<group>";
+		};
+		9C5A7C301A83EBCC002CB4CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C5A7C311A83EBCC002CB4CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C7582B61A81578400EA6B7A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C3551BA1A7FE9AF0034DAFE /* ViewController.h */,
+				9C3551BB1A7FE9AF0034DAFE /* ViewController.m */,
+				9C3551DE1A802D3D0034DAFE /* MapVC.h */,
+				9C3551DF1A802D3D0034DAFE /* MapVC.m */,
+				9C5C019C1A828ABC00703EE8 /* AddReminder.h */,
+				9C5C019D1A828ABC00703EE8 /* AddReminder.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9C7582B71A8157A600EA6B7A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C3551B71A7FE9AF0034DAFE /* AppDelegate.h */,
+				9C3551B81A7FE9AF0034DAFE /* AppDelegate.m */,
+				9C7582B31A813A1B00EA6B7A /* Stack.h */,
+				9C7582B41A813A1B00EA6B7A /* Stack.m */,
+				9C9274E51A8843010047AEF3 /* LinkedListDemo.h */,
+				9C9274E61A8843010047AEF3 /* LinkedListDemo.m */,
+				9C9274E81A88435A0047AEF3 /* Node.h */,
+				9C9274E91A88435A0047AEF3 /* Node.m */,
+				9C3551D91A7FFC9E0034DAFE /* Person.h */,
+				9C3551DA1A7FFC9E0034DAFE /* Person.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9C7582B81A8157B000EA6B7A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9C3551BD1A7FE9AF0034DAFE /* Main.storyboard */,
+				9C3551C21A7FE9AF0034DAFE /* LaunchScreen.xib */,
+				9C3551C01A7FE9AF0034DAFE /* Images.xcassets */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,10 +300,12 @@
 				9C3551AC1A7FE9AF0034DAFE /* Sources */,
 				9C3551AD1A7FE9AF0034DAFE /* Frameworks */,
 				9C3551AE1A7FE9AF0034DAFE /* Resources */,
+				9C5A7C401A83EBCD002CB4CB /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9C5A7C381A83EBCC002CB4CB /* PBXTargetDependency */,
 			);
 			name = LocoReminders;
 			productName = LocoReminders;
@@ -157,6 +330,39 @@
 			productReference = 9C3551C91A7FE9AF0034DAFE /* LocoRemindersTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		9C5A7C181A83EBCB002CB4CB /* LocoReminders WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5A7C3F1A83EBCD002CB4CB /* Build configuration list for PBXNativeTarget "LocoReminders WatchKit Extension" */;
+			buildPhases = (
+				9C5A7C151A83EBCB002CB4CB /* Sources */,
+				9C5A7C161A83EBCB002CB4CB /* Frameworks */,
+				9C5A7C171A83EBCB002CB4CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C5A7C2E1A83EBCC002CB4CB /* PBXTargetDependency */,
+			);
+			name = "LocoReminders WatchKit Extension";
+			productName = "LocoReminders WatchKit Extension";
+			productReference = 9C5A7C191A83EBCC002CB4CB /* LocoReminders WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		9C5A7C2A1A83EBCC002CB4CB /* LocoReminders WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5A7C3E1A83EBCC002CB4CB /* Build configuration list for PBXNativeTarget "LocoReminders WatchKit App" */;
+			buildPhases = (
+				9C5A7C291A83EBCC002CB4CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LocoReminders WatchKit App";
+			productName = "LocoReminders WatchKit App";
+			productReference = 9C5A7C2B1A83EBCC002CB4CB /* LocoReminders WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +374,21 @@
 				TargetAttributes = {
 					9C3551AF1A7FE9AF0034DAFE = {
 						CreatedOnToolsVersion = 6.1.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					9C3551C81A7FE9AF0034DAFE = {
 						CreatedOnToolsVersion = 6.1.1;
 						TestTargetID = 9C3551AF1A7FE9AF0034DAFE;
+					};
+					9C5A7C181A83EBCB002CB4CB = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					9C5A7C2A1A83EBCC002CB4CB = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -190,6 +407,8 @@
 			targets = (
 				9C3551AF1A7FE9AF0034DAFE /* LocoReminders */,
 				9C3551C81A7FE9AF0034DAFE /* LocoRemindersTests */,
+				9C5A7C181A83EBCB002CB4CB /* LocoReminders WatchKit Extension */,
+				9C5A7C2A1A83EBCC002CB4CB /* LocoReminders WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -212,6 +431,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9C5A7C171A83EBCB002CB4CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5A7C281A83EBCC002CB4CB /* Images.xcassets in Resources */,
+				9C5A7C2C1A83EBCC002CB4CB /* LocoReminders WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5A7C291A83EBCC002CB4CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5A7C341A83EBCC002CB4CB /* Interface.storyboard in Resources */,
+				9C5A7C361A83EBCC002CB4CB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -219,9 +456,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C5C019E1A828ABC00703EE8 /* AddReminder.m in Sources */,
+				9C7582B51A813A1B00EA6B7A /* Stack.m in Sources */,
 				9C3551BC1A7FE9AF0034DAFE /* ViewController.m in Sources */,
+				9C9274E71A8843010047AEF3 /* LinkedListDemo.m in Sources */,
 				9C3551B91A7FE9AF0034DAFE /* AppDelegate.m in Sources */,
+				9C9274EA1A88435A0047AEF3 /* Node.m in Sources */,
+				9C3551DB1A7FFC9E0034DAFE /* Person.m in Sources */,
 				9C3551B61A7FE9AF0034DAFE /* main.m in Sources */,
+				9C3551E01A802D3D0034DAFE /* MapVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +476,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9C5A7C151A83EBCB002CB4CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5A7C231A83EBCC002CB4CB /* NotificationController.m in Sources */,
+				9C5A7C431A83F0E7002CB4CB /* ReminderRowCon.m in Sources */,
+				9C5A7C201A83EBCC002CB4CB /* InterfaceController.m in Sources */,
+				9CDB27501A8AE6CA009B3AC1 /* WatchMapVC.m in Sources */,
+				9C5A7C261A83EBCC002CB4CB /* GlanceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -240,6 +495,16 @@
 			isa = PBXTargetDependency;
 			target = 9C3551AF1A7FE9AF0034DAFE /* LocoReminders */;
 			targetProxy = 9C3551CA1A7FE9AF0034DAFE /* PBXContainerItemProxy */;
+		};
+		9C5A7C2E1A83EBCC002CB4CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C5A7C2A1A83EBCC002CB4CB /* LocoReminders WatchKit App */;
+			targetProxy = 9C5A7C2D1A83EBCC002CB4CB /* PBXContainerItemProxy */;
+		};
+		9C5A7C381A83EBCC002CB4CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C5A7C181A83EBCB002CB4CB /* LocoReminders WatchKit Extension */;
+			targetProxy = 9C5A7C371A83EBCC002CB4CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -258,6 +523,14 @@
 				9C3551C31A7FE9AF0034DAFE /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		9C5A7C321A83EBCC002CB4CB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C5A7C331A83EBCC002CB4CB /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -393,6 +666,66 @@
 			};
 			name = Release;
 		};
+		9C5A7C3A1A83EBCC002CB4CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LocoReminders WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9C5A7C3B1A83EBCC002CB4CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = "LocoReminders WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9C5A7C3C1A83EBCC002CB4CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = LocoReminders_WatchKit_Extension;
+				INFOPLIST_FILE = "LocoReminders WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		9C5A7C3D1A83EBCC002CB4CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COPY_PHASE_STRIP = NO;
+				IBSC_MODULE = LocoReminders_WatchKit_Extension;
+				INFOPLIST_FILE = "LocoReminders WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -412,6 +745,7 @@
 				9C3551D51A7FE9AF0034DAFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C3551D61A7FE9AF0034DAFE /* Build configuration list for PBXNativeTarget "LocoRemindersTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +754,25 @@
 				9C3551D81A7FE9AF0034DAFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C5A7C3E1A83EBCC002CB4CB /* Build configuration list for PBXNativeTarget "LocoReminders WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5A7C3C1A83EBCC002CB4CB /* Debug */,
+				9C5A7C3D1A83EBCC002CB4CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C5A7C3F1A83EBCD002CB4CB /* Build configuration list for PBXNativeTarget "LocoReminders WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5A7C3A1A83EBCC002CB4CB /* Debug */,
+				9C5A7C3B1A83EBCC002CB4CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

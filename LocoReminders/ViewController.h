@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class Person;
+
 @interface ViewController : UIViewController
 
+//@property (strong, nonatomic) NSString *name;
+//
+//@property (strong, nonatomic) Person *myPerson;
 
 @end
 
